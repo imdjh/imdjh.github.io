@@ -1,0 +1,17 @@
+# Site settings
+title             :  独学而无友，则孤陋而寡闻
+description       :  I major in Applied Physics and I am interested in System operating & website backend technology. I believed that teaching makes one learn faster and sharing makes knowledge exploration. If you met error, contacts are welcome.
+baseurl           :  ""
+url               :  "http://www.djh.im"
+github_username   :  imdjh
+
+# Build settings
+markdown          :  kramdown
+theme: minima
+excerpt_separator :  "%%MORE%%"
+exclude: [vendor, Gemfile, Gemfile.lock, secrets.api, js/vendor/hogan.js/test/ ]
+
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from

@@ -1,0 +1,50 @@
+ .search-form-wrapper {
+      width: 600px;
+      margin: 30px auto;
+    }
+.search-form {
+    height: 40px;
+    margin: 20px;
+}
+.twitter-typeahead, input.search-input, .tt-hint, .tt-query {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 300;
+}
+input.search-input, .tt-hint, .tt-query {
+    padding-left: 10px;
+}
+.tt-dropdown-menu {
+    right: 0px !important;
+}
+.tt-suggestion {
+    font-size: 18px;
+    background: grey !important;
+    margin-top: 2px;
+    padding: 5px 0;
+    border: 1px solid rgba(0,0,0,.2);
+}
+.tt-suggestion .hit {
+    margin: 10px;
+    padding: 10px;
+}
+.tt-suggestion .hit .url {
+    font-size: 12px;
+    text-align: right;
+}
+.tt-suggestion .hit .title {
+    margin: 0px;
+    font-size: 18px;
+    text-align: left;
+    color: #080808;
+    font-weight: normal;
+}
+.tt-suggestion .hit em {
+    font-weight: bold;
+    font-style: normal;
+}
+.tt-is-under-cursor {
+    background: #FF6600;
+    color: white;      
+}
